@@ -16,7 +16,7 @@ PROJECT_ROOT = os.path.abspath(os.path.join(__file__, "..", ".."))
 sys.path.insert(0, PROJECT_ROOT)
 
 project = "latex_parser"
-author = "latex_parser developers"
+author = "Kareem H. El-Safty"
 copyright = f"{datetime.now().year}, {author}"
 
 extensions = [
