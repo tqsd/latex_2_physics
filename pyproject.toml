@@ -1,24 +1,26 @@
-[tool.black]
-line-length = 88
-target-version = ["py313"]
-exclude = '''
-/(
-    \.git
-  | \.tox
-  | build
-  | dist
-)/
-'''
+[project]
+name = "latex_parser"
+version = "0.1.0"
+description = "A package converting physics-style LaTeX to quantum simulation backends (QuTiP, NumPy, JAX)."
+readme = "README.md"
+license = { text = "Apache License 2.0" }
+authors = [
+    { name = "Kareem H. El-Safty", email = "kareemessafty@gmail.com" }
+]
+maintainers = [
+    { name = "Kareem H. El-Safty", email = "kareemessafty@gmail.com" }
+]
+keywords = ["quantum", "quantum-machine-learning", "photonic", "simulation", "latex", "dsl"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Programming Language :: Python :: 3.13",
+    "License :: OSI Approved :: Apache Software License"
+]
+requires-python = ">=3.13"
 
-[tool.isort]
-profile = "black"
-line_length = 88
-skip = [".tox", "build", "dist", "__pycache__"]
-
-[tool.coverage.run]
-branch = true
-source = ["latex_parser", "tests"]
-
-[build-system]
-requires = ["setuptools", "wheel"]
-build-backend = "setuptools.build_meta"
+[project.urls]
+Homepage = "https://github.com/tqsd/latex_2_physics/"
+Source = "https://github.com/tqsd/latex_2_physics"
+Documentation = "https://latex-2-physics.readthedocs.io/en/latest/index.html"
