@@ -1,0 +1,121 @@
+# Python bytecode / cache
+__pycache__/
+*.py[cod]
+*$py.class
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+
+# Build / packaging artifacts
+.Python
+build/
+dist/
+downloads/
+sdist/
+eggs/
+.eggs/
+parts/
+wheels/
+pip-wheel-metadata/
+develop-eggs/
+var/
+lib/
+lib64/
+*.egg-info/
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Test / coverage outputs
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+nosetests.xml
+*.cover
+*.py,cover
+htmlcov/
+pytest-debug.log
+.docstr-coverage/
+docs/docstr-coverage/
+
+# Type checking caches
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# Virtual environments
+.env
+.env.*
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+*.conda
+
+# Editor / IDE
+.vscode/
+.idea/
+.local-history/
+*.swp
+*.swo
+*.bak
+
+# OS junk
+.DS_Store
+._*
+Thumbs.db
+ehthumbs.db
+.Spotlight-V100
+.Trashes
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.AppleDouble
+.LSOverride
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Sphinx / MkDocs
+docs/_build/
+_build/
+site/
+
+# LaTeX outputs
+*.aux
+*.bbl
+*.blg
+*.idx
+*.ind
+*.lof
+*.lot
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+*.xdv
+*.pdf
+latex2math_cache/
+
+# App-specific
+latex_parser.egg-info/
+# github
+.github/
+.github/workflows/

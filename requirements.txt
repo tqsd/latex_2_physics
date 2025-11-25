@@ -1,0 +1,9 @@
+sympy
+numpy
+scipy
+qutip
+jax
+jaxlib
+antlr4-python3-runtime==4.11
+pytest
+pytest-cov
