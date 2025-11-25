@@ -117,7 +117,7 @@ pip install jax jaxlib
 **NumPy (included by default):**
 Already available.
 
-**[See the Installation Guide for details](https://latex-parser.readthedocs.io/en/latest/install.html)**
+**[See the Installation Guide for details](https://latex-2-physics.readthedocs.io/en/latest/install.html)**
 
 ---
 
